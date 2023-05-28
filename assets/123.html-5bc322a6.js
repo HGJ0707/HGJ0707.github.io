@@ -1,4 +1,4 @@
-import{_ as e,o as i,c as a,d}from"./app-31ec30f8.js";const n={},s=d(`<h3 id="linux-命令课上案例" tabindex="-1"><a class="header-anchor" href="#linux-命令课上案例" aria-hidden="true">#</a> Linux 命令课上案例</h3><h4 id="案例1-ls-pwd-cd-touch-mkdir-cp-mv-rm" tabindex="-1"><a class="header-anchor" href="#案例1-ls-pwd-cd-touch-mkdir-cp-mv-rm" aria-hidden="true">#</a> 案例1: ls/pwd/cd/touch/mkdir/cp/mv/rm</h4><div class="language-yacas line-numbers-mode" data-ext="yacas"><pre class="language-yacas"><code>在桌面上打开终端窗口, 执行如下操作:
+import{_ as e,o as i,c as a,b as d}from"./app-fb188770.js";const n={},s=d(`<h3 id="linux-命令课上案例" tabindex="-1"><a class="header-anchor" href="#linux-命令课上案例" aria-hidden="true">#</a> Linux 命令课上案例</h3><h4 id="案例1-ls-pwd-cd-touch-mkdir-cp-mv-rm" tabindex="-1"><a class="header-anchor" href="#案例1-ls-pwd-cd-touch-mkdir-cp-mv-rm" aria-hidden="true">#</a> 案例1: ls/pwd/cd/touch/mkdir/cp/mv/rm</h4><div class="language-yacas line-numbers-mode" data-ext="yacas"><pre class="language-yacas"><code>在桌面上打开终端窗口, 执行如下操作:
 01.查看当前路径位置
 02.查看当前目录下有哪些文件和文件夹
 03.创建 adir,bdir,cdir 三个文件夹(创建一个文件夹/创建多个文件夹)
