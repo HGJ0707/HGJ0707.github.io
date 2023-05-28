@@ -10,7 +10,7 @@ export default defineUserConfig({
   lang: 'zh-CN',
   title: "HGJ SITE",
   description: 'VuePress 测试唉',
-  base: 'docment',
+  base: '/docment/',
 
   theme: defaultTheme({
     // 顶部导航栏
