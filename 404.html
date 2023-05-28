@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.62">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>HGJ SITE</title><meta name="description" content="VuePress 测试唉">
+    <link rel="preload" href="/docment/assets/style-70f1dac1.css" as="style"><link rel="stylesheet" href="/docment/assets/style-70f1dac1.css">
+    <link rel="modulepreload" href="/docment/assets/app-2e9bf5d2.js"><link rel="modulepreload" href="/docment/assets/404.html-39e5c44f.js"><link rel="modulepreload" href="/docment/assets/404.html-f9875e7b.js"><link rel="prefetch" href="/docment/assets/index.html-e37e9fad.js" as="script"><link rel="prefetch" href="/docment/assets/123.html-9cb7f4c4.js" as="script"><link rel="prefetch" href="/docment/assets/index.html-d9949945.js" as="script"><link rel="prefetch" href="/docment/assets/123.html-95e647d1.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>That&#39;s a Four-Oh-Four.</blockquote><a href="/docment/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/docment/assets/app-2e9bf5d2.js" defer></script>
+  </body>
+</html>
