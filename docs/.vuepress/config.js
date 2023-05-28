@@ -8,23 +8,33 @@ import {
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  title: "HGJ SITE",
-  description: 'VuePress 测试唉',
+  // title: "Guangjun's personal website",
+  description: 'In the record',
   base: '/document/',
+  head: [
+    // 设置 favor.ico，.vuepress/public 下
+    [
+      'link', {
+        rel: 'icon',
+        href: '/images/favicon.ico'
+      }
+    ]
+  ],
 
   theme: defaultTheme({
+    logo: '/images/logo.png',// 注意图片放在 public 文件夹下
     // 顶部导航栏
     navbar: [
       // NavbarItem
       {
-        text: '导航一',
-        link: '/foo/',
+        text: '首页',
+        link: '/',
       },
       // NavbarGroup
-      {
-        text: '导航二',
-        children: ['111', '222'],
-      },
+      // {
+      //   text: '导航二',
+      //   children: ['111', '222'],
+      // },
     ],
 
     // 左侧边栏
@@ -64,7 +74,7 @@ export default defineUserConfig({
           },
         ],
       },
-     
+
     ],
   }),
 })
