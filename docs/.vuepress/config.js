@@ -41,40 +41,39 @@ export default defineUserConfig({
     sidebar: [
       // SidebarItem
       {
-        text: '123',
-        link: '/guide/123.md',
+        text: 'JavaScript',
+        link: '/guide/JavaScript/变量声明.md',
         children: [
           // SidebarItem
           {
-            text: '111',
-            link: '/foo/',
+            text: '变量声明',
+            link: '/guide/JavaScript/变量声明.md',
             children: [],
           },
-          {
-            text: '222',
-            link: '/foo/',
-            children: [],
-          },
+          // {
+          //   text: '222',
+          //   link: '/foo/',
+          //   children: [],
+          // },
         ],
       },
-      {
-        text: '123',
-        link: '/foo/',
-        children: [
-          // SidebarItem
-          {
-            text: '111',
-            link: '/foo/',
-            children: [],
-          },
-          {
-            text: '222',
-            link: '/foo/',
-            children: [],
-          },
-        ],
-      },
-
+      // {
+      //   text: '123',
+      //   link: '/foo/',
+      //   children: [
+      //     // SidebarItem
+      //     {
+      //       text: '111',
+      //       link: '/foo/',
+      //       children: [],
+      //     },
+      //     {
+      //       text: '222',
+      //       link: '/foo/',
+      //       children: [],
+      //     },
+      //   ],
+      // },
     ],
   }),
 })
