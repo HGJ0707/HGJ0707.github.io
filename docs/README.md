@@ -5,7 +5,7 @@ heroText: Guangjun's personal website
 tagline: In the record 
 actions:
   - text: Get Started
-    link: /guide/123.html
+    link: '/guide/JavaScript/变量声明.md'
     type: primary
   # - text: Introduction
   #   link: /guide/

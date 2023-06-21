@@ -50,11 +50,11 @@ export default defineUserConfig({
             link: '/guide/JavaScript/变量声明.md',
             children: [],
           },
-          // {
-          //   text: '222',
-          //   link: '/foo/',
-          //   children: [],
-          // },
+          {
+            text: '数据类型',
+            link: '/guide/JavaScript/数据类型.md',
+            children: [],
+          },
         ],
       },
       // {
