@@ -1,15 +1,12 @@
 ---
 home: true
-# heroImage: /images/logo.png 
-heroText: Guangjun's personal website
-tagline: In the record 
+heroImage: /images/logo-300.png 
+heroText: Recording...
+tagline: ' ' 
 actions:
   - text: Get Started
-    link: '/guide/JavaScript/变量声明.md'
+    link: '/zh/javascript/1-变量声明.md'
     type: primary
-  # - text: Introduction
-  #   link: /guide/
-  #   type: secondary
 # features:
 #   - title: Simplicity First
 #     details: Minimal setup with markdown-centered project structure helps you focus on writing.
@@ -23,5 +20,5 @@ actions:
 #     details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
 #   - title: Bundlers
 #     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
-# footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: Copyright © 2023-present Guangjun
 ---
