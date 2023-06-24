@@ -1,13 +1,15 @@
-var aaa = 'window aaa';
-
-const obj = {
-  aaa: 'obj aaa',
-  bbb: {
-    aaa: 'bbb aaa',
-    func: function() {
-      console.log(this.aaa);
-    }
+class Fruits {
+  constructor() {
+    this.colors = ["red", "green", "blue"];
   }
 }
 
-obj.bbb.func();
+class Apple extends Fruits {
+  constructor() {
+    super();
+  }
+}
+
+let app1 = new Apple();
+
+console.log(app1.colors)
