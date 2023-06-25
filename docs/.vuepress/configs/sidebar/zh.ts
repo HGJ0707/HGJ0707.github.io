@@ -14,6 +14,7 @@ export const sidebarZh: SidebarConfig = {
         '/zh/javascript/6-new操作符.md',
         '/zh/javascript/7-深浅拷贝.md',
         '/zh/javascript/8-执行上下文.md',
+        '/zh/javascript/9-原型和原型链.md',
       ],
     },
     {
