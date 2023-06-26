@@ -15,6 +15,8 @@ export const sidebarZh: SidebarConfig = {
         '/zh/javascript/7-深浅拷贝.md',
         '/zh/javascript/8-执行上下文.md',
         '/zh/javascript/9-原型和原型链.md',
+        '/zh/javascript/10-事件循环.md',
+        '/zh/javascript/11-包装类.md',
       ],
     },
     {
