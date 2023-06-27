@@ -26,6 +26,15 @@ export const sidebarZh: SidebarConfig = {
         '/zh/js手写实现/promise.md',
       ],
     },
+    {
+      text: '正则表达式',
+      collapsible: true,
+      children: [
+        '/zh/正则表达式/1-正则表达式知识点.md',
+        '/zh/正则表达式/2-正则表达式练习题.md',
+        '/zh/正则表达式/3-常用的正则表达式.md',
+      ],
+    },
     // {
     //   text: 'Vue',
     //   collapsible: true,
