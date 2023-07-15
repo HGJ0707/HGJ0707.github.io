@@ -121,4 +121,4 @@ const person = {
 const boundFunction = greet.myBind(person, 'Hello');
 
 boundFunction('Alice'); // Output: Hello, Alice! I'm John.
-``` 
+```
