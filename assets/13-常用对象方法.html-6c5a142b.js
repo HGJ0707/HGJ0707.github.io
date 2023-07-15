@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-47ec3707","path":"/zh/javascript/13-%E5%B8%B8%E7%94%A8%E5%AF%B9%E8%B1%A1%E6%96%B9%E6%B3%95.html","title":"常用对象方法","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1689412583000,"contributors":[{"name":"jun","email":"1494243221@qq.com","commits":1}]},"filePathRelative":"zh/javascript/13-常用对象方法.md"}');export{t as data};

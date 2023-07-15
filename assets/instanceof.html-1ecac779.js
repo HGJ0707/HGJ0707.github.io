@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-78221f7c","path":"/zh/js%E6%89%8B%E5%86%99%E5%AE%9E%E7%8E%B0/instanceof.html","title":"instanceof","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1689412583000,"contributors":[{"name":"jun","email":"1494243221@qq.com","commits":1}]},"filePathRelative":"zh/js手写实现/instanceof.md"}');export{t as data};

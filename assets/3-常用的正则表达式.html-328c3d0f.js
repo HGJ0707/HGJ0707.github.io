@@ -1,0 +1,1 @@
+import{_,o as t,c as a,b as e,e as c}from"./app-eb5bb617.js";const o={},r=e("h1",{id:"常用的正则表达式",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#常用的正则表达式","aria-hidden":"true"},"#"),c(" 常用的正则表达式")],-1),s=[r];function n(d,i){return t(),a("div",null,s)}const l=_(o,[["render",n],["__file","3-常用的正则表达式.html.vue"]]);export{l as default};

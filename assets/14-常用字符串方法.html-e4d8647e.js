@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-7c6e033c","path":"/zh/javascript/14-%E5%B8%B8%E7%94%A8%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%96%B9%E6%B3%95.html","title":"常用字符串方法","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1689412583000,"contributors":[{"name":"jun","email":"1494243221@qq.com","commits":1}]},"filePathRelative":"zh/javascript/14-常用字符串方法.md"}');export{t as data};
