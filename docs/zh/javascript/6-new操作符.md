@@ -25,24 +25,19 @@ new 运算符创建一个用户定义的对象类型的实例或具有构造函�
 ## 实现 myNew
 
 ```js
-function myNew() {
-  // arguments是一个类数组，借用数组的slice方法变成一个真数组
-  const args = Array.prototype.slice.call(arguments);
+function myNew(constructor, ...args) {
+  // 1.创建一个新的空对象，并将其原型设置为构造函数的原型
+  const obj = Object.create(constructor.prototype);
 
-  // 判断构造函数类型，必须是一个函数
-  const myCotr = args.shift();
-  if (typeof myCotr !== "function") {
-    throw new TypeError("argument must be a function!");
+  // 2.将构造函数的上下文绑定到新对象
+  const result = constructor.apply(obj, args);
+
+  // 3.如果构造函数有显式的返回值并且是一个对象类型，则返回该对象；否则，返回新创建的对象
+  if (result && (typeof result === 'object' || typeof result === 'function')) {
+    return result;
   }
 
-  // 创建实例
-  const newInstance = Object.create(myCotr.prototype);
-
-  // 将构造函数的this指向新创建的对象，执行构造函数
-  const res = myCotr.apply(newInstance, args);
-
-  // 如果返回值是对象则返回它，否则返回新创建的对象
-  return res instanceof Object ? res : newInstance;
+  return obj;
 }
 
 ---------------------------------------------

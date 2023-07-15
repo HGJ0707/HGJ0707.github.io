@@ -1,11 +1,11 @@
 ---
 home: true
-heroImage: /images/logo-300.png 
+heroImage: /images/logo-300.png
 heroText: Recording...
-tagline: ' ' 
+tagline: " "
 actions:
   - text: Get Started
-    link: '/zh/javascript/1-变量声明.md'
+    link: "/zh/javascript/1-变量声明.md"
     type: primary
 # features:
 #   - title: Simplicity First
@@ -22,3 +22,16 @@ actions:
 #     details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
 footer: Copyright © 2023-present Guangjun
 ---
+
+```js
+                     ===        ===      === ==========      ===                ===                 == ====== == 
+                    ===        ===      === ==========      ===                ===                === ====== ===
+                   ===        ===      ===                 ===                ===                ===        ===
+                  ===        ===      ===                 ===                ===                ===        ===
+                 === ====== ===      === ====== ===      ===                ===                ===        ===
+                === ====== ===      === ====== ===      ===                ===                ===        ===
+               ===        ===      ===                 ===                ===                ===        ===
+              ===        ===      ===                 ===                ===                ===        ===
+             ===        ===      === ==========      === ==========     === ==========     === ====== ===
+            ===        ===      === ==========      === ==========     === ==========      == ====== == 
+```

@@ -7,6 +7,7 @@ export const sidebarZh: SidebarConfig = {
       collapsible: true,
       children: [
         '/zh/javascript/1-变量声明.md',
+        '/zh/javascript/15-相等性判断.md',
         '/zh/javascript/2-数据类型.md',
         '/zh/javascript/3-this.md',
         '/zh/javascript/4-闭包.md',
@@ -17,6 +18,9 @@ export const sidebarZh: SidebarConfig = {
         '/zh/javascript/9-原型和原型链.md',
         '/zh/javascript/10-事件循环.md',
         '/zh/javascript/11-包装类.md',
+        '/zh/javascript/12-常用数组方法.md',
+        '/zh/javascript/13-常用对象方法.md',
+        '/zh/javascript/14-常用字符串方法.md',
       ],
     },
     {
@@ -24,6 +28,8 @@ export const sidebarZh: SidebarConfig = {
       collapsible: true,
       children: [
         '/zh/js手写实现/promise.md',
+        '/zh/js手写实现/instanceof.md',
+        '/zh/js手写实现/call-apply-bind.md',
       ],
     },
     {
